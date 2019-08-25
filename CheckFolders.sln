@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29209.62
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CheckFolders", "CheckFolders\CheckFolders.csproj", "{6F1917B7-EB2D-41E7-87BA-3331F9746BCE}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "EPPlus", "EPPlus\EPPlus.shproj", "{FA2AB179-DBD8-4E2A-A7AA-72A0518E1B4F}"
+EndProject
+Global
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		EPPlus\EPPlus.projitems*{6f1917b7-eb2d-41e7-87ba-3331f9746bce}*SharedItemsImports = 4
+		EPPlus\EPPlus.projitems*{fa2ab179-dbd8-4e2a-a7aa-72a0518e1b4f}*SharedItemsImports = 13
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6F1917B7-EB2D-41E7-87BA-3331F9746BCE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F1917B7-EB2D-41E7-87BA-3331F9746BCE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F1917B7-EB2D-41E7-87BA-3331F9746BCE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F1917B7-EB2D-41E7-87BA-3331F9746BCE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8F086F33-2304-4A87-A471-9D039CCB0A76}
+	EndGlobalSection
+EndGlobal
